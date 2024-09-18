@@ -1,10 +1,11 @@
 # Bachelor-Thesis-2024
 
 ## 1. Project Overview
-This project focuses on predicting customer churn using machine learning algorithms on a telecom dataset. The aim is to identify at-risk customers before they leave, thereby reducing churn rates and improving customer retention.
+Bachelor Thesis titled "Application of Behavior Scoring Techniques in Trade Credit Limit Adjustment"
+This project focuses on building a model predicting customers' risk of turning delinquent within the next year, allowing credit risk analysts to make appropriate adjusments to their credit line. The project is executed in cooperation with Royal FrieslandCampina's Account Receivables Team.
 
 ## 2. Project Impact
-By achieving an 85% accuracy on the test set, the model offers valuable insights that can potentially reduce churn by 10%, translating to significant savings for the company.
+The model offers valuable insights into the factors making a borrower profile risky. By demonstrating excellent perfomance in differenting between good and bad customers, the model shows the potential to reduce throughput time of a credit review by 25% and improve the consistency of the overall credit review system. 
 
 ## 3. Technical Skills Demonstrated
 - **Programming**: Python (Pandas, NumPy, Scikit-learn)
