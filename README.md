@@ -24,7 +24,7 @@ The model provides critical insights into what makes a borrower profile risky. W
 ### 5.3 Data Cleaning and Preprocessing
 ### 5.4 Feature Engineering
 - Variables for trend analysis: Standardized variations in revenues, net profit, working capital, and equity over a 3-year period
-- Key financial ratios: Current ratio, DSO ratio, Operating Profit Margin & ...
+- Key financial ratios: Current ratio, DSO ratio, and Operating Profit Margin
 - Interaction variables
   ### 5.5 Modelling
 - Four Models:
@@ -34,5 +34,13 @@ The model provides critical insights into what makes a borrower profile risky. W
   4. SMOTE-ENN + Random Forest Classifier
 
 ## 6. Results
+In technical terms:
 - Random Forest Classifier performs worse than the traditional Logistic Regression when features are selected using RFE techniques.
 - Best model Logistic Regression using RFE has a ROC-AUC Score of 0.89 with a standard deviation of 0.04 using 200 Bootstrap samples.
+
+***In business terms***:
+- Further **standardized the credit limit review** process, replacing laborious judgment with consistent, structured assessments — empowering analysts with a common framework and **improving alignment and fairness** in decision-making across individual analysts and teams.
+- Integrated into Power BI dashboards, the model enabled **automated and reliable credit risk assessments** by combining internal payment behavior with external credit data — leading to an **additional 10% reduction in credit request throughput time**, particularly for **medium- to long-term buyers**.
+
+
+
